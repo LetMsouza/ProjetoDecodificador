@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Decodificador de Texto </title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+<header>
+    <img src="imagens/vetor.png" alt="Logo encriptador" class="logo">
+</header>
+<main> 
+   <section>
+       <textarea class="input-texto"cols="60" rows="10" placeholder="Digite seu texto"></textarea>
+       <h6 class="info"> "Apenas letras minúsculas e sem acento.</h6>
+
+      <div class="botoes">
+         <button class="encriptar" onclick="btnEncriptar()">
+          Criptografar
+         </button> 
+         <button class="desencriptar" onclick="btnDesencriptar()">
+          Desencriptar
+         </button>
+      </div>
+   </section>
+
+  <section class="caixa">
+    <textarea class="caixa-texto" cols="30" rows="20"></textarea>
+       <h2 id="naoexibir">Nenhuma mensagem <br>encontrada</h2>
+        <h3 id="naoexibir2">Digite um texto que você deseja <br> criptografar ou descriptografar.</h3>
+        <button class="copiar" onclick="btnCopiar()">Copiar </button>
+  </section>
+              
+     
+
+</main>
+    <script src="script.js"></script>
+    <section class="rodape">
+      <footer> <p class="copyright">&copy; Desenvolvedora Leticia Madureira</footer>
+    </section>
+</body>
+</html>

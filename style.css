@@ -1,0 +1,136 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+main{
+    display: flex;
+
+}
+.logo{
+    margin: 20px;
+}
+
+.input-texto {
+    margin: 0 120px;
+    top: 10px;
+	position: relative;
+	text-align: center;
+	resize: none;
+    border-radius: 32px;
+	display: inline-block;
+}
+.caixa-texto{
+    position: absolute;
+	width: 400px;
+	height: 944px;
+	left: 1000px;
+	top: 40px;
+	border-radius: 32px;
+	margin-left: 200px;
+	text-align: center;
+	resize: none;
+    
+    background-image: url("imagens/desenho.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+
+.caixa h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    position: relative;
+    left: 50px;
+    top: 600px;
+    text-align: center;
+}
+.caixa h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    position: absolute;
+    text-align: center;
+    left: 1290px;
+    top: 760px;
+
+}
+
+.botoes{
+    display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 50px;
+	gap: 8px;
+	margin: 0 80px;
+}
+
+.copiar {
+    line-height: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	position: absolute;
+	width: 260px;
+    height: 80px;
+	left: 70%;
+	top: 1000px;
+    margin: 20px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+}
+.copiar:hover {
+ background-color: #668fc4;
+}
+.encriptar{
+    width: 260px;
+    height: 80px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+}
+.encriptar:hover {
+ background-color: #a4b5cb;
+}
+.desencriptar{
+    width: 260px;
+    height: 80px;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    margin-left: 30px;
+    color: #0A3871;
+}
+.desencriptar:hover {
+ background:#668fc4;
+}
+
+.info{
+    position: absolute;
+    text-align: center;
+    left: 130px;
+    top: 590px;
+    margin-right: 1rem;
+    color: #495057;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+.rodape{
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    top: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 20px;
+    
+    
+}
