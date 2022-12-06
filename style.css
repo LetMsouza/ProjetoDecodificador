@@ -1,7 +1,7 @@
 *{
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 200;
     line-height: 48px;
 }
 
@@ -29,8 +29,8 @@ main{
 .caixa-texto{
     position: absolute;
 	width: 400px;
-	height: 944px;
-	left: 1000px;
+	height: 600px;
+	left: 700px;
 	top: 40px;
 	border-radius: 32px;
 	margin-left: 200px;
@@ -49,18 +49,18 @@ main{
     line-height: 120%;
 
     position: relative;
-    left: 50px;
-    top: 600px;
+    left: 120px;
+    top: 400px;
     text-align: center;
 }
 .caixa h3{
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 100%;
     position: absolute;
     text-align: center;
-    left: 1290px;
-    top: 760px;
+    left: 990px;
+    top: 560px;
 
 }
 
@@ -78,10 +78,10 @@ main{
 	text-align: center;
 	box-sizing: border-box;
 	position: absolute;
-	width: 260px;
+	width: 180px;
     height: 80px;
-	left: 70%;
-	top: 1000px;
+	left: 73%;
+	top: 680px;
     margin: 20px;
     background-color: #0A3871;
     border-radius: 24px;
@@ -91,7 +91,7 @@ main{
  background-color: #668fc4;
 }
 .encriptar{
-    width: 260px;
+    width: 230px;
     height: 80px;
     background-color: #0A3871;
     border-radius: 24px;
@@ -101,7 +101,7 @@ main{
  background-color: #a4b5cb;
 }
 .desencriptar{
-    width: 260px;
+    width: 230px;
     height: 80px;
     background-color: #D8DFE8;
     border-radius: 24px;
@@ -126,11 +126,59 @@ main{
 .rodape{
     position: absolute;
     text-align: center;
-    left: 600px;
-    top: 1200px;
+    left: 500px;
+    top: 1100px;
     font-size: 20px;
     font-weight: 200;
     line-height: 20px;
     
     
+}
+
+@media screen and (max-width: 740px){
+	.logo, .encriptar, .desencriptar,.info, .desenho{ 
+
+		width: auto;
+	}
+	
+
+	.input-texto{
+		width: 60%;
+
+		
+	}
+	.caixa-texto{
+		width: 80%;
+		position: absolute;
+		margin: 0 30px;
+	}
+
+	.copiar{
+		margin: 0 10px;
+		left: 800px;
+		top: 700px;
+		position: absolute;
+		
+	}
+	.caixa h2{
+		text-align: center;
+		left: 830px;
+		top: 460px;
+		position: absolute;
+        font-size: 20px;
+	}
+	.caixa h3{
+		position: absolute;
+		left: 830px;
+		top: 550px;
+		text-align: center;
+        font-size: 15px;
+
+	}
+	.rodape{
+		left: 100%;
+		position: relative;
+		display: flex;
+		font-size: 80%;
+	}
 }
